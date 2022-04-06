@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    
+    <title>MAP</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid header"></div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <p class="text-center text1">КАРТА НАШИХ ФИЛИАЛОВ</p>
+            <p class="text-center text2">Выберите удобный способ отображения филиалов. Смотите их на карте или списком.
+            </p>
+        </div>
+        <div class="wrapper ">
+            <div class="tabs">
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active " data-tab-name="tab-1"> <i
+                            class="bi bi-geo-alt-fill icon"></i>КАРТА</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-2"> <i class="bi bi-list-ul icon"></i>СПИСОК
+                    </div>
+                </div>
+                <div class="tabs__content ">
+                    <div class="tab is-active tab-1">
+                        <div class="container-fluid">
+                            <script class="map" type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab1871e5a32cba122bc6ae682cf8a077122965e3c5b7f12af78c3904e193e91c9&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=false">
+                            </script>
+                        </div>
+                    </div>
+                    <div class="tab tab-2 ">
+                        <div class="container-fluid">
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ki">Кировский</p>
+                                            <h5 class="card-title">Лига Роботов - основной филиал</h5>
+                                            <p class="card-text">Немировича-Данченко, 122, БЦ "Кино", 1 этаж, оф. 100</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ki">Кировский</p>
+                                            <h5 class="card-title">Школа №217</h5>
+                                            <p class="card-text">Виктора Шевелева, 3, 3 этаж, каб. 305</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ki">Кировский</p>
+                                            <h5 class="card-title">Школа №196</h5>
+                                            <p class="card-text">Саввы Кожевникова, 21, старший блок, каб. 111</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ln">Ленинский</p>
+                                            <h5 class="card-title">Школа №215</h5>
+                                            <p class="card-text">Титова, 242/1, 2 этаж, блок В, каб. 211</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ln">Ленинский</p>
+                                            <h5 class="card-title">Детский Центр "1+1"</h5>
+                                            <p class="card-text">Горский микрорайон, 63</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head kr">Краснообск</p>
+                                            <h5 class="card-title">СК "Армада"</h5>
+                                            <p class="card-text">Восточная, 29, 3 этаж, конференц-зал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head zc">Заельцовский</p>
+                                            <h5 class="card-title">"Продленка"</h5>
+                                            <p class="card-text">Кропоткина, 92/3, 1 этаж</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ct">Центральный</p>
+                                            <h5 class="card-title">Детский Центр "Совнархоз"</h5>
+                                            <p class="card-text">Красный проспект, 82, 4 этаж, оф. 307А</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ct">Центральный</p>
+                                            <h5 class="card-title">Школа "Диалог"</h5>
+                                            <p class="card-text">Красный проспект, 67а, 1 этаж, каб. 10а и 10б</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ct">Центральный</p>
+                                            <h5 class="card-title">Школа №156</h5>
+                                            <p class="card-text">Гоголя, 35, 1 этаж, каб. Технологии/зал Самбо</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head ct">Центральный</p>
+                                            <h5 class="card-title">"Аквадеврика"</h5>
+                                            <p class="card-text">Максима Горького, 85</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head okt">Октябрьский</p>
+                                            <h5 class="card-title">Школа №202</h5>
+                                            <p class="card-text">Белинского, 1, каб. 310</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head okt">Октябрьский</p>
+                                            <h5 class="card-title">Европейский Берег</h5>
+                                            <p class="card-text">Большевитская, 96</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head okt">Октябрьский</p>
+                                            <h5 class="card-title">Школа №189</h5>
+                                            <p class="card-text">Выборная, 120, 2 этаж, каб. 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head okt">Октябрьский</p>
+                                            <h5 class="card-title">Детский Центр "Мандарин"</h5>
+                                            <p class="card-text">Бориса Богаткова, 185/2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head kln">Калининский</p>
+                                            <h5 class="card-title">Гимназия №12</h5>
+                                            <p class="card-text">Александра Невского, 7, 1 этаж, каб. 101 и 111</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head kln">Калининский</p>
+                                            <h5 class="card-title">Школа №207</h5>
+                                            <p class="card-text">Родники, 4, 1 этаж, каб. 153</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head kln">Калининский</p>
+                                            <h5 class="card-title">Школа №151</h5>
+                                            <p class="card-text">Курчатова, 13/1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head sv">Советский</p>
+                                            <h5 class="card-title">Гимназия №6 "Горностай!</h5>
+                                            <p class="card-text">Полевая, 5, младший блок, каб. 409 и 411</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head sv">Советский</p>
+                                            <h5 class="card-title">Автошкола "Мегаполис"</h5>
+                                            <p class="card-text">Проспект Академика Коптюга, 19, 1 этаж</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="max-width: 40rem; min-width: 20rem;">
+                                        <div class="card-body">
+                                            <p class="card-head kc">Кольцово</p>
+                                            <h5 class="card-title">Центр "Созвездие"</h5>
+                                            <p class="card-text">поселок Кольцово, 14, цокольный этаж</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container-fluid footer"></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+
+
+</body>
+
+</html>
